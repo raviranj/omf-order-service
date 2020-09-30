@@ -1,0 +1,14 @@
+server:
+  port: 6098    #port number
+  
+spring:
+  application:
+    name: order-management-app     #service name
+    
+  cloud:
+     config:
+         uri:
+           - http://config:5098
+    
+  
+ 
